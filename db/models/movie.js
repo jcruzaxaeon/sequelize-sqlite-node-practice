@@ -73,6 +73,7 @@ function movieModel(sequelize) {
     // tableName: 'movieTableName'
     // timestamps: false,
     // freezeTableName: true,
+    paranoid: true, // enable "soft" delete
     sequelize, // destructured {sequelize: sequelize}
   });
 

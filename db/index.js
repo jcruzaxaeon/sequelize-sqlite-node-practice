@@ -14,7 +14,7 @@ const sequelize = new Sequelize({
   // Global Options for All Models
   define: {
     // freezeTableName: true,
-    timestamps: false,
+    timestamps: true,
   },
 });
 
